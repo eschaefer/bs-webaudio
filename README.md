@@ -1,8 +1,11 @@
-# Basic Reason Template
+# ReasonML WebAudio API bidings
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+An ongoing effort to add the [WebAudio API](https://webaudio.github.io/web-audio-api/#audioapi) bindings to ReasonML.
+
+It's a big undertaking, but if it could be [done for TypeScript](https://github.com/Microsoft/TSJS-lib-generator/blob/master/baselines/dom.generated.d.ts), it can be done for Reason.
 
 # Build
+
 ```
 npm run build
 ```
@@ -13,6 +16,12 @@ npm run build
 npm run start
 ```
 
+# Run tests
+
+```
+npm run test
+```
 
 # Editor
+
 If you use `vscode`, Press `Windows + Shift + B` it will build automatically
