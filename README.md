@@ -1,4 +1,4 @@
-# ReasonML WebAudio API bidings
+# ReasonML WebAudio API bindings
 
 An ongoing effort to add the [WebAudio API](https://webaudio.github.io/web-audio-api/#audioapi) bindings to ReasonML.
 
