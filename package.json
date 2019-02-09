@@ -1,21 +1,28 @@
 {
-	"name": "bs-webaudio",
-	"version": "0.1.0",
-	"description": "Bucklescript bindings for WebAudio",
-	"scripts": {
-		"build": "bsb -make-world",
-		"start": "bsb -make-world -w",
-		"clean": "bsb -clean-world"
-	},
-	"keywords": [
-		"BuckleScript",
-		"reason",
-		"reasonml",
-		"webaudio"
-	],
-	"author": "Eric Schaefer",
-	"license": "MIT",
-	"devDependencies": {
-		"bs-platform": "^4.0.18"
-	}
+  "name": "bs-webaudio",
+  "version": "0.1.0",
+  "description": "Bucklescript bindings for WebAudio",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "jest"
+  },
+  "keywords": [
+    "BuckleScript",
+    "reason",
+    "reasonml",
+    "webaudio"
+  ],
+  "author": "Eric Schaefer",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.18",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jestSetup.js"
+    ]
+  }
 }
